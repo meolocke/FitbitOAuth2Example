@@ -69,7 +69,6 @@ public class FitbitOAuth2Example {
 		BufferedReader bufferedReader=null;
 
 		String CLIENT_ID="";
-		String API_KEY="";
 		String API_SECRET="";	
 
 		try {
@@ -81,7 +80,6 @@ public class FitbitOAuth2Example {
 			bufferedReader = new BufferedReader(fileReader);
 
 			CLIENT_ID= bufferedReader.readLine();
-			API_KEY= bufferedReader.readLine();
 			API_SECRET = bufferedReader.readLine();
 
 
