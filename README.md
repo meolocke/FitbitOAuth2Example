@@ -29,11 +29,13 @@ Students: There is no longer an API key provided by Fitbit, so take it out of th
 555GGG
 85h6ca8e9009f87ee67882e18a029bc8
 ```
-1. This example code will read the credentials from this file, and save the access/refresh token pair recieved as ExampleTokens.txt in the same directory
+
 
 # Package and Run
 ```
 mvn package
 java -jar target/FitbitOAuth2Example-1.0-jar-with-dependencies.jar
 ```
-You would need a Fitbit account or willing user to log in.
+You would need a Fitbit account or willing user to log in.  
+
+This example code will read the credentials from the file as outlined above, and save the access/refresh token pair recieved as ExampleTokens.txt in the src/main/resources/private directory
